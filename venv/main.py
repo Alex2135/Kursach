@@ -5,6 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from MainWindow import *
 
 # python -m PyQt5.uic.pyuic -x main_form.ui -o main_form.py
+# pyinstaller --name="Kursach" --windowed --onefile venv/main.py
 
 app = QtWidgets.QApplication(sys.argv)
 myapp = MyWin()
